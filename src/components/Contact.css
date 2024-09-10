@@ -1,0 +1,91 @@
+/* Contact.css */
+.contact-section {
+  padding: 2rem;
+  background-color: #e9ecef;
+}
+
+.container {
+  max-width: 1200px; /* Largeur maximale du conteneur */
+  margin: 0 auto;
+}
+
+.form {
+  background: #0e2526e6;
+  padding: 60px; /* Padding pour plus de contenu visible */
+  max-width: 800px; /* Largeur maximale du formulaire */
+  margin: 10rem auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px 4px rgba(14, 37, 38, 0.3);
+}
+
+.contact-form {
+  
+  flex-direction: column;
+  gap: 1.5rem; /* Écart entre les champs */
+  background-color: #ffffff;
+  padding: 3rem; /* Padding interne du formulaire */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Assurez-vous que le groupe de formulaires utilise toute la largeur */
+}
+
+.form-group label {
+  font-size: 2rem; /* Taille des labels */
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 0.5rem;
+  transition: all 0.2s ease;
+  transform: translateY(6px);
+}
+
+.form-control {
+  font-size: 2rem; /* Taille de la police des champs de saisie */
+  padding: 15px 20px; /* Padding interne des champs de saisie */
+  border: 1px solid #a0b3b0;
+  border-radius: 5px;
+  color: #ffffff;
+  background: none;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  width: 100%; /* Champs de saisie à 100% de la largeur disponible */
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  font-size: 1.8rem; /* Taille de la police du bouton */
+  padding: 15px 0; /* Padding du bouton */
+  border: none;
+  border-radius: 5px;
+  background-color: #389949;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  width: 100%; /* Assurez-vous que le bouton utilise toute la largeur disponible */
+}
+
+.alert {
+  margin: 1rem auto;
+  max-width: 800px; /* Largeur maximale des alertes */
+  padding: 2rem; /* Padding des alertes */
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.btn-close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
